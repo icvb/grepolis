@@ -21,7 +21,7 @@ def refresh():
 
 city = raw_input("kérem adja meg a város nevét: ")
 #size= raw_input ("Varakozasi ido: ")
-size = 2
+size = 1
 y = terkep(city)
 mouse = Controller()
 

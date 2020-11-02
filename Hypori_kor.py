@@ -14,6 +14,9 @@ def terkep (city):
     elif city == "Mandalore" or city == "Atzerri":
         x = [[1026,539],[950,553],[775,554],[754,593],[691,515],[726,389]]
         return (x)
+    elif city == "Anaxes" or city == "Jambii":
+        x = [[953,357],[849,387],[792,434],[647,466],[826,547],[879,593]]
+        return (x)
     elif city == "Bestine":
         x = [[494,426],[646,410],[730,575],[833,560],[932,558],[1121,446]]
         return (x)
