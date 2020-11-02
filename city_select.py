@@ -48,6 +48,16 @@ def select(city):
     elif city == "Eriadu":
         mouse.position = (632,314)
         standard()
+    elif city == "Fondor":
+        mouse.position = (631,333)
+        standard()
+    elif city == "Ilum":
+        mouse.position = (632,314)
+        standard()
+    elif city == "Jabiim":
+        mouse.position = (632,314)
+        standard()
+    
     else:
         print "error"
         return "error"

@@ -23,7 +23,9 @@ def farm (size):
     mouse.position=(1135,190)
     mouse.click(Button.left,1)
     
-city = ["Hypori","Alzoc","Anaxes","Atzerri"]
+city = ["Hypori","Alzoc","Anaxes","Atzerri",
+        "Bespin", "Bestine", "Carida", "Edriau",
+        "Fondor", "Ilum", "Jabiim" ]
 size = 1
 
 
@@ -38,9 +40,11 @@ while k!=len(city):
     mouse.click(Button.left, 1)
     k=k+1
     if y == "error":
-        print "error 66"
+        print city[i] + " hiba"
+        i=i+1
     else:
         i=0
+        print "ok"
         while i < 6:
             mouse.position = (y[i][0], y[i][1])
             mouse.click(Button.left,1)
